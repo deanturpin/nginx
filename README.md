@@ -13,7 +13,7 @@ Exploring deploying my top-level personal website in a Docker container.
 ## Run
 
 ```bash
-docker run --rm -it deanturpin/nginx
+docker run --rm -p 80:80 deanturpin/nginx
 ```
 ## Build locally
 
@@ -29,3 +29,9 @@ make
 docker scout quickview dt/nginx
 docker scout recommendations dt/nginx
 ```
+
+## FastHosts
+
+I chose FastHosts just to get away from Google and use a UK-based company/server.
+
+The main contol panel is nice and simple, but then you click the cloud admin bit and it launches a portal designed with a completely different technolgy stack.
