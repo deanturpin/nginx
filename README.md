@@ -2,6 +2,8 @@
 
 Exploring deploying my top-level personal website in a Docker container.
 
+Note: these are my websites, not a general purpose container!
+
 ## Objectives
 
 - Deploy to latest Ubuntu web server
