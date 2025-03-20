@@ -2,7 +2,9 @@
 
 Exploring deploying my top-level personal website in a Docker container.
 
-Note: these are my websites, not a general purpose container!
+__Note: these are my websites, not a general purpose container!__
+
+See the [Dockerfile](https://github.com/deanturpin/nginx/blob/main/Dockerfilefile) on GitHub.
 
 ## Objectives
 
