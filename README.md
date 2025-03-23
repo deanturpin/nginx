@@ -13,6 +13,7 @@ See the [Dockerfile](https://github.com/deanturpin/nginx/blob/main/Dockerfilefil
 - Work out how to update individual services/containers when they are updated with minimal disruption
 - Scale up to support other websites and services (e.g., Asterisk, email)
 - Achieve a top class Docker scout health score
+- Use LetsEncrypt (in a container)
 
 ## Run
 
