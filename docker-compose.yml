@@ -1,0 +1,19 @@
+# version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./html:/usr/share/nginx/html
+      - ./certs:/etc/ssl/certs
+      - ./private:/etc/ssl/private
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - ./certs:/etc/ssl/certs
+      - ./private:/etc/ssl/private
+    entrypoint: /bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $!; done;'

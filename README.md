@@ -20,6 +20,7 @@ See the [Dockerfile](https://github.com/deanturpin/nginx/blob/main/Dockerfilefil
 ```bash
 docker run --rm -p 80:80 deanturpin/nginx
 ```
+
 ## Build locally
 
 To develop the container.
